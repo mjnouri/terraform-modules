@@ -69,6 +69,10 @@ variable "env" {
   default = ""
 }
 
+variable "subnet_id" {
+  default = ""
+}
+
 output "vpc_id_output" {
   value = "aws_vpc.vpc.id"
 }
