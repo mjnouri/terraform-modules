@@ -37,10 +37,6 @@ variable "project_name" {
   default = ""
 }
 
-variable "security_groups" {
-  default = ""
-}
-
 output "sg_output" {
   value = aws_security_group.sg.id
 }
